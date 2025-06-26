@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+body{
+  background-color: rgb(9, 9, 9);
+
+ 
+}
+
+.font-family{
+   font-family: "Architects Daughter", cursive;
+}
+
+.font-family-sora{
+   font-family: "Sora", sans-serif;
+}
