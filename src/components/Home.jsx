@@ -2,6 +2,7 @@ import React, { useState,useEffect } from 'react';
 import Typed from 'typed.js';
 import { FaArrowRight } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
+import atul from '/profile/atul.jpg';
 function Home() {
 
 const el = React.useRef(null);
@@ -62,7 +63,7 @@ useEffect(()=>{
      <div className="image-section flex items-center w-[35%]  justify-center max-[1169px]:w-full h-[92vh]  max-[1169px]:h-[65vh] ">
   <div className="image-container">
     <img
-      src="atul.jpg"
+      src={atul}
       alt="Atul"
       className="w-full h-full object-cover rounded-full"
     />

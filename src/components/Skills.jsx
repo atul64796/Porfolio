@@ -24,7 +24,7 @@ function Skills() {
 </div>
 <div className='flex justify-center items-center p-5  flex-col gap-3 '>
     <h1 className=' text-xl text-yellow-500 font-family font-semibold font-family-sora'>Continuous Learning Journey</h1>
-    <p className='text-lg text-white w-[66%] max-[664px]:w-full p-2 max-[664px]:text-[17px] max-[500px]:w-full max-[500px]:text-[14px] text-center '>
+    <p className='text-lg text-white w-[66%] max-[664px]:w-full max-[664px]:text-[17px] max-[500px]:w-full max-[500px]:text-[14px] text-center '>
 I embrace the mindset of a perpetual learner. While I may not claim mastery, I'm constantly exploring new technologies and leveraging AI to enhance my capabilities. Every job / project is an opportunity to grow and innovate.</p>
 </div>
    </>

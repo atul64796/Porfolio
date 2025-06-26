@@ -1,3 +1,7 @@
+
+
+
+
 const skills = [
   {
     logo: "./public/skillsImages/backend.png",
