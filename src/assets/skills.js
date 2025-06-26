@@ -4,7 +4,7 @@
 
 const skills = [
   {
-    logo: "./public/skillsImages/backend.png",
+    logo: "/skillsImages/backend.png",
     name: "Backend System",
     description: "Developing scalable APIs and server-side logic using modern backend frameworks",
   },
