@@ -20,10 +20,10 @@ function Navbar() {
                     {/* Middle Nav Links */}
                     <div className='flex justify-center w-[50%] max-[769px]:w-full max-[769px]:justify-start'>
                         <ul className='flex gap-6 max-[823px]:gap-3 max-[769px]:flex-col'>
-                            <a href='#about' className='text-gray-400 hover:text-white cursor-pointer transition ease-in-out'>About</a>
-                            <a href='#tech-stack' className='text-gray-400 hover:text-white cursor-pointer transition ease-in-out'>Tech Stack</a>
-                            <a href="#project-bar" className='text-gray-400 hover:text-white cursor-pointer transition ease-in-out'>Projects</a>
-                            <a href="#contact-sec"  className='text-gray-400 hover:text-white cursor-pointer transition ease-in-out'>Contact</a>
+                            <a href='#about' className='text-gray-400 hover:text-white cursor-pointer transition ease-in-out' onClick={() => setIsOpen(!isOpen)}>About</a>
+                            <a href='#tech-stack' className='text-gray-400 hover:text-white cursor-pointer transition ease-in-out' onClick={() => setIsOpen(!isOpen)}>Tech Stack</a>
+                            <a href="#project-bar" className='text-gray-400 hover:text-white cursor-pointer transition ease-in-out' onClick={() => setIsOpen(!isOpen)}>Projects</a>
+                            <a href="#contact-sec"  className='text-gray-400 hover:text-white cursor-pointer transition ease-in-out' onClick={() => setIsOpen(!isOpen)}>Contact</a>
                         </ul>
                     </div>
 
