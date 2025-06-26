@@ -7,7 +7,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 function Project() {
   return (
     <>
-    <div className=' tech flex flex-col justify-center items-center mt-30 2 mb-10 p-10'>
+    <div className=' tech flex flex-col justify-center items-center mt-30 2 mb-10 p-10 ' id='project-bar'>
     <h2 className=' text-amber-400 text-xl font-bold'>Featured Projects</h2>
     <h1 className=' text-white text-4xl max-md:text-3xl  font-family-sora font-bold text-center'>My Recent Work</h1>
     </div>

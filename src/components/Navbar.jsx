@@ -20,26 +20,26 @@ function Navbar() {
                     {/* Middle Nav Links */}
                     <div className='flex justify-center w-[50%] max-[769px]:w-full max-[769px]:justify-start'>
                         <ul className='flex gap-6 max-[823px]:gap-3 max-[769px]:flex-col'>
-                            <li className='text-gray-400 hover:text-white cursor-pointer transition ease-in-out'>About</li>
-                            <li className='text-gray-400 hover:text-white cursor-pointer transition ease-in-out'>Tech Stack</li>
-                            <li className='text-gray-400 hover:text-white cursor-pointer transition ease-in-out'>Projects</li>
-                            <li className='text-gray-400 hover:text-white cursor-pointer transition ease-in-out'>Contact</li>
+                            <a href='#about' className='text-gray-400 hover:text-white cursor-pointer transition ease-in-out'>About</a>
+                            <a href='#tech-stack' className='text-gray-400 hover:text-white cursor-pointer transition ease-in-out'>Tech Stack</a>
+                            <a href="#project-bar" className='text-gray-400 hover:text-white cursor-pointer transition ease-in-out'>Projects</a>
+                            <a href="#contact-sec"  className='text-gray-400 hover:text-white cursor-pointer transition ease-in-out'>Contact</a>
                         </ul>
                     </div>
 
                     {/* Social Media & Resume */}
                     <div className='flex  justify-center gap-4 max-[769px]:flex-col max-[769px]:w-full '>
                         <div className='flex justify-center items-center gap-5 max-[769px]:justify-start'>
-                            <a href="#"><FaInstagram className='text-white text-2xl hover:text-pink-500 transition ease-in-out' /></a>
-                            <a href="#"><FaGithub className='text-white text-2xl hover:text-gray-300 transition ease-in-out' /></a>
-                            <a href="#"><FaLinkedin className='text-white text-2xl hover:text-blue-400 transition ease-in-out' /></a>
+                            <a href="https://www.instagram.com/atul_kumar_chourasia/"><FaInstagram className='text-white text-2xl hover:text-pink-500 transition ease-in-out' /></a>
+                            <a href="https://github.com/atul64796"><FaGithub className='text-white text-2xl hover:text-gray-300 transition ease-in-out' /></a>
+                            <a href="https://www.linkedin.com/in/atul-kumar-chourasia-36494827a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedin className='text-white text-2xl hover:text-blue-400 transition ease-in-out' /></a>
                             </div>
                             {/* Resume button */}
                             <div className=''>
                             <a href="#" className='px-4  '>
                                 <div className='border-1 bg-yellow-400 rounded-lg flex items-center justify-center p-2 gap-2 max-[769px]:w-full hover:bg-amber-500 transition ease-in-out'>
                                     <IoDocumentTextOutline className='text-2xl font-bold' />
-                                    <p className='font-bold'>Resume</p>
+                                    <a href='./public/resume.pdf' download className='font-bold'>Resume</a>
                                 </div>
                             </a>
                             </div>

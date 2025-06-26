@@ -33,7 +33,7 @@ function Contact() {
     }
   return (
     <>
-      <div  className=" contact flex flex-col justify-center gap-2 items-center mt-30 mb-10 p-5">
+      <div  className=" contact flex flex-col justify-center gap-2 items-center mt-30 mb-10 p-5" id="contact-sec">
         <h2 className=" text-amber-400 text-xl font-bold">
           Thank You for Visiting My Portfolio{" "}
         </h2>

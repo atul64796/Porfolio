@@ -4,7 +4,7 @@ import tech from '../assets/tech'
 function Tech() {
   return (
     <>
-    <div className=' tech flex flex-col justify-center items-center mt-30 mb-10 p-10'>
+    <div className=' tech flex flex-col justify-center items-center mt-30 mb-10 p-10' id='tech-stack'>
     <h2 className=' text-amber-400 text-xl max-[500px]:text-2xl font-bold'>My Tech Stack</h2>
     <h1 className=' text-white text-4xl max-md:text-2xl  font-family-sora font-bold text-center'>Technologies I Worked On</h1>
     </div>

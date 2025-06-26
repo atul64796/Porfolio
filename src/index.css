@@ -13,3 +13,7 @@ body{
 .font-family-sora{
    font-family: "Sora", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}

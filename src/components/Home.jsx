@@ -47,12 +47,12 @@ useEffect(()=>{
 
     <div className=' flex max-[500px]:p-1 max-[500px]:gap-7 p-4 justify-center gap-16 mt-10'>
      <div className='buttons flex bg-amber-400 w-47 justify-center items-center gap-2  py-2  rounded-2xl cursor-pointer hover:bg-amber-500 shadow-yellow-400 hover:shadow-lg transition-all duration-300 ease-in-out'>
-      <p>View Projects</p>
+      <p onClick={()=> document.getElementById('project-bar')?.scrollIntoView({behavior : 'smooth'})}>View Projects</p>
       <FaArrowRight />
      </div>
 
     <div className='buttons flex bg-black border-1 border-white text-white w-47 justify-center items-center gap-2  py-3 rounded-2xl cursor-pointer hover:bg-gray-600/5 transition-all duration-300 ease-in-out '>
-      <p>Contact Me</p>
+      <p onClick={()=> document.getElementById('contact-sec')?.scrollIntoView({behavior : 'smooth'})}>Contact Me</p>
       <MdOutlineEmail />
      </div>
   </div>
