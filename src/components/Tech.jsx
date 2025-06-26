@@ -6,7 +6,7 @@ function Tech() {
     <>
     <div className=' tech flex flex-col justify-center items-center mt-30 mb-10 p-10'>
     <h2 className=' text-amber-400 text-xl max-[500px]:text-2xl font-bold'>My Tech Stack</h2>
-    <h1 className=' text-white text-4xl max-md:text-3xl max-[500px]:text-xl font-family-sora font-bold text-center'>Technologies I Worked On</h1>
+    <h1 className=' text-white text-4xl max-md:text-2xl  font-family-sora font-bold text-center'>Technologies I Worked On</h1>
     </div>
     <div className='flex justify-center items-center m-6 '>
         <div className='flex  gap-4 p-0 flex-wrap md:w-[40%] sm:w-[70%] max-[500px]:w-full  justify-evenly'>

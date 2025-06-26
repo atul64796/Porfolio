@@ -12,7 +12,7 @@ function Project() {
     <h1 className=' text-white text-4xl max-md:text-3xl  font-family-sora font-bold text-center'>My Recent Work</h1>
     </div>
 {/* FIRST PROJECT */}
-    <div className='flex justify-center items-center gap-3 p-30   max-md:p-10 max-sm:p-0  max-[500px]:mb-16 '>
+    <div className='flex justify-center items-center gap-3 p-30   max-md:p-10 max-sm:p-0  max-[640px]:mb-16 '>
 
     <div className='flex  justify-center gap-10 max-[1241px]:flex-col max-[1241px]:items-center   '>
         <div className='left-side-project w-[45%] max-[890px]:w-[97%] max-[1241px]:w-[70%]   text-white border-1 border-white/20  max-[500px]:p-4 p-7 flex flex-col gap-6  '>
@@ -98,7 +98,7 @@ function Project() {
             </div>
         </div>
 
-         <div className='right-side-project w-[45%] max-[500px]:w-[97%] max-[1241px]:w-[70%] max-[500px]:p-5 max-[890px]:w-full   text-white border-1 border-white/20  p-7 flex flex-col gap-6 '>
+         <div className='right-side-project w-[45%]  max-[1241px]:w-[70%] max-[500px]:p-5 max-[890px]:w-[97%]   text-white border-1 border-white/20  p-7 flex flex-col gap-6 '>
             <div className='flex flex-col gap-2'>
                 <h2 className='text-2xl max-[1323px]:xl max-[500px]:text-lg text-yellow-400'>Ai Voice Assistant</h2>
                 <h1 className='text-4xl  max-[1323px]:3xl  font-bold'>Axon</h1>

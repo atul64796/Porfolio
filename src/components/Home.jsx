@@ -37,7 +37,7 @@ useEffect(()=>{
         </div>
       </div>
      <div className='flex flex-col  items-center justify-center my-10 font-family-sora max-[500px]:gap-3 font-bold gap-5'>
-       <h1 className='text-6xl max-[500px]:text-4xl text-white text-center max-[785px]:text-5xl  max-[626px]:text-4xl'>Hii, I'm a Atul Chourasia</h1>
+       <h1 className='text-6xl max-[500px]:text-4xl text-white text-center max-[785px]:text-5xl  max-[626px]:text-4xl'>Hii, I'm Atul Chourasia</h1>
        <h1 className=' text-5xl max-[500px]:text-2xl text-blue-500 text-center max-[785px]:text-4xl max-[626px]:text-3xl' >Aspiring <span className='text-yellow-500'ref={el} >
         </span></h1>
      </div>
