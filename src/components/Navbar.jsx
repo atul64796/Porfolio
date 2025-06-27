@@ -39,7 +39,7 @@ function Navbar() {
                             <a href="#" className='px-4  '>
                                 <div className='border-1 bg-yellow-400 rounded-lg flex items-center justify-center p-2 gap-2 max-[769px]:w-full hover:bg-amber-500 transition ease-in-out'>
                                     <IoDocumentTextOutline className='text-2xl font-bold' />
-                                    <a href='./public/resume.pdf' download className='font-bold'>Resume</a>
+                                    <a href='./public/cv.pdf' download   className='font-bold'>Resume</a>
                                 </div>
                             </a>
                             </div>
