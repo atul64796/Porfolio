@@ -7,18 +7,18 @@ function Navbar() {
 
     return (
         <>
-            <div className='bg-black fixed w-[100%] z-1000 '>
+            <div className='bg-black fixed w-[100%] z-1000  '>
                 <div className='flex justify-end   absolute z-20 w-full p-4 md:hidden   '>
                     <FaBars className='text-white text-3xl md:hidden max-[769px]:inline hover:text-yellow-400 transition-all duration-100 ease-in-out' onClick={() => setIsOpen(!isOpen)} />
                 </div>
 
-                <nav className={`${isOpen ? "flex" : "hidden"}  flex h-16 items-center max-[769px]:flex-col max-[769px]:items-start max-[769px]:h-80 max-[769px]:justify-center max-[769px]:gap-3 md:flex p-4 relative max-[768px]:top-15  bg-black    rounded  z-20 `}>
+                <nav className={`${isOpen ? "flex" : "hidden"}  flex h-16 items-center max-[769px]:flex-col max-[769px]:items-start max-[769px]:h-80 max-[769px]:justify-center max-[769px]:gap-3 md:flex p-4 relative max-[768px]:top-15  bg-black   rounded  z-20 `}>
                     <div className='flex w-[27%] justify-start max-[768px]:w-full'>
                         <span className='text-white text-[17px] font-bold max-[823px]:text-[19px]'>ATUL CHOURASIA</span>
                     </div>
 
                     {/* Middle Nav Links */}
-                    <div className='flex justify-center w-[50%] max-[769px]:w-full max-[769px]:justify-start'>
+                    <div className='flex justify-center w-[50%] max-[769px]:w-full max-[769px]:justify-start '>
                         <ul className='flex gap-6 max-[823px]:gap-3 max-[769px]:flex-col'>
                             <a href='#about' className='text-gray-400 hover:text-white cursor-pointer transition ease-in-out' onClick={() => setIsOpen(!isOpen)}>About</a>
                             <a href='#tech-stack' className='text-gray-400 hover:text-white cursor-pointer transition ease-in-out' onClick={() => setIsOpen(!isOpen)}>Tech Stack</a>

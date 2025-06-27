@@ -15,7 +15,7 @@ function Project() {
     <div className='flex justify-center items-center gap-3 p-30   max-md:p-10 max-sm:p-0  max-[640px]:mb-16 '>
 
     <div className='flex  justify-center gap-10 max-[1241px]:flex-col max-[1241px]:items-center   '>
-        <div className='left-side-project w-[45%] max-[890px]:w-[97%] max-[1241px]:w-[70%]   text-white border-1 border-white/20  max-[500px]:p-4 p-7 flex flex-col gap-6  '>
+        <div className='left-side-project w-[45%] max-[890px]:w-[91%] max-[1241px]:w-[70%]   text-white border-1 border-white/20   max-[500px]:p-5 p-7 flex flex-col gap-6  '>
             <div className='flex flex-col gap-2'>
                 <h2 className='text-2xl max-[1323px]:xl max-[500px]:text-lg text-yellow-400'>AI Enchancer</h2>
                 <h1 className='text-4xl  max-[1323px]:text-3xl   font-bold'>AI Image Enhancer</h1>
@@ -31,10 +31,10 @@ function Project() {
                     <span className='border-1 max-[1323px]:text-sm border-white/20 p-3 rounded-xl transform hover:scale-110 hover:border-yellow-400 hover:border-1 transition duration-100'>Open Ai</span>
                     <span className='border-1 max-[1323px]:text-sm border-white/20 p-3 rounded-xl transform hover:scale-110 hover:border-yellow-400 hover:border-1 transition duration-100'>Vercel</span>
             </div>
-            <div className='flex p-1 max-[500px]:gap-3 gap-5  w-full  '>
+            <div className='flex p-1  gap-5  w-full  '>
             <a href=""><div className='flex gap-2 max-[1323px]:text-sm justify-center items-center  p-3 bg-blue-600 transform hover:scale-110 transition duration-100'><TbWorld /><p>Website</p></div></a>
             <a href=""><div className='flex gap-2 max-[1323px]:text-sm justify-center items-center border p-3 transform hover:scale-110 transition duration-100'><FaGithub /><p>Github</p></div></a>
-            <a href=""><div className='flex gap-2  max-[1323px]:text-sm justify-center items-center border p-3 transform hover:scale-110 transition duration-100'><IoPlayCircleOutline /><p>Watch Demo</p></div></a>
+            <a href=""><div className='flex gap-2  max-[1323px]:text-sm justify-center items-center border p-3 transform hover:scale-110 transition duration-100'><IoPlayCircleOutline /><p>Demo</p></div></a>
             </div>
         </div>
         <div className='Right-side-project w-[50%]  flex justify-center items-center   p-8  max-[1241px]:hidden'>
@@ -98,7 +98,7 @@ function Project() {
             </div>
         </div>
 
-         <div className='right-side-project w-[45%]  max-[1241px]:w-[70%] max-[500px]:p-5 max-[890px]:w-[97%]   text-white border-1 border-white/20  p-7 flex flex-col gap-6 '>
+         <div className='right-side-project w-[45%]  max-[1241px]:w-[70%] max-[500px]:p-5 max-[890px]:w-[91%]   text-white border-1 border-white/20  p-7 flex flex-col gap-6 '>
             <div className='flex flex-col gap-2'>
                 <h2 className='text-2xl max-[1323px]:xl max-[500px]:text-lg text-yellow-400'>Ai Voice Assistant</h2>
                 <h1 className='text-4xl  max-[1323px]:3xl  font-bold'>Axon</h1>
@@ -114,10 +114,10 @@ function Project() {
                     <span className='border-1 max-[1323px]:text-sm border-white/20 p-3 rounded-xl transform hover:scale-110 hover:border-yellow-400 hover:border-1 transition duration-100'>Open Ai</span>
                     <span className='border-1 max-[1323px]:text-sm border-white/20 p-3 rounded-xl transform hover:scale-110 hover:border-yellow-400 hover:border-1 transition duration-100'>Vercel</span>
             </div>
-            <div className='flex p-3 gap-5  max-[500px]:gap-3 max-[500px]:p-0 '>
+            <div className='flex p-3 gap-5   max-[500px]:p-0 '>
             <a href=""><div className='flex gap-2 max-[500px]:gap-1 max-[1323px]:text-sm justify-center items-center p-3 bg-blue-600 transform hover:scale-110 transition duration-100'><TbWorld /><p>Website</p></div></a>
             <a href=""><div className='flex gap-2 max-[500px]:gap-1 max-[1323px]:text-sm justify-center items-center border p-3 transform hover:scale-110 transition duration-100'><FaGithub /><p>Github</p></div></a>
-            <a href=""><div className='flex gap-2 max-[500px]:gap-1 max-[1323px]:text-sm justify-center items-center border  p-3 transform hover:scale-110 transition duration-100'><IoPlayCircleOutline /><p>Watch Demo</p></div></a>
+            <a href=""><div className='flex gap-2 max-[500px]:gap-1 max-[1323px]:text-sm justify-center items-center border  p-3 transform hover:scale-110 transition duration-100'><IoPlayCircleOutline /><p>Demo</p></div></a>
             </div>
         </div>
         </div>
