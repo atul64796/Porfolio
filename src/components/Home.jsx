@@ -78,7 +78,7 @@ useEffect(() => {
     />
   </div>
 </div>
-<div className=' text-white absolute bottom-8 left-[47%] max-[500px]:left-[34%] flex flex-col justify-center items-center gap-4 max-[1169px]:bottom-[-20px] max-[1169px]:left-[44%] max-[450px]:bottom- '>
+<div className=' text-white absolute bottom-8 left-[47%] max-[500px]:left-[34%] flex flex-col justify-center items-center gap-4 max-[1169px]:bottom-[-20px] max-[1169px]:left-[40%] max-[450px]:bottom- '>
   <h2>Scroll to explore</h2>
   <div className='scroll'></div>
   </div>
