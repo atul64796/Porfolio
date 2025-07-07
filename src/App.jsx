@@ -6,6 +6,7 @@ import Skills from "./components/Skills"
 import Tech from "./components/Tech"
 import Project from "./components/Project"
 import Contact from "./components/Contact"
+import About from "./components/About"
 
 function App() {
  
@@ -16,6 +17,7 @@ function App() {
      <Home/>
      <Skills/>
      <Tech/>
+     <About/>
      <Project/>
      <Contact/>
     </>

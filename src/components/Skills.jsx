@@ -3,7 +3,7 @@ import skills from '../assets/skills'
 function Skills() {
   return (
    <>
-   <div className='skills flex flex-col justify-center mt-16 items-center max-[116px]:mt-20 mb-10  ' id='about'>
+   <div className='skills flex flex-col justify-center mt-16 items-center max-[116px]:mt-20 mb-10  '>
     <h2 className=' text-amber-400 text-xl font-bold'>My Exploration</h2>
     <h1 className=' text-white text-4xl  font-family-sora font-bold '>Things I Love</h1>
     </div>
