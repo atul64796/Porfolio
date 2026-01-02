@@ -28,7 +28,7 @@ function Project() {
             <div className='flex flex-col gap-2'>
                 <h2 className='text-2xl max-[1323px]:xl max-[500px]:text-lg text-yellow-400'>Ai Story Generator</h2>
                 <h1 className='text-4xl  max-[1323px]:text-3xl   font-bold'>Journey Ai</h1>
-                <p>"Journey AI is a collaborative travel story generator built as a team project. Users can generate and regenerate stories, read public stories, track their history, plan trips using an AI chatbot, and securely share experiences with JWT-based authentication for safe and personalized access."</p>
+                <p>Journey AI is a collaborative travel story generator built as a team project. Users can generate and regenerate stories, read public stories, track their history, plan trips using an AI chatbot, and securely share experiences with JWT-based authentication for safe and personalized access.</p>
             </div>
             <div className='flex flex-wrap gap-5 max-[1323px]:gap-3 items-center  px-4 max-[500px]:gap-2 '>
                     <span className='border-1 max-[1323px]:text-sm  border-white/20 p-3 rounded-xl transform hover:scale-110 hover:border-yellow-400 hover:border-1 transition duration-100'>Java Script</span>
