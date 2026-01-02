@@ -37,7 +37,7 @@ function Navbar() {
                     <div className='flex justify-center gap-4 max-[769px]:flex-col max-[769px]:w-full'>
                         {/* Social Media Icons */}
                         <div className='flex justify-center items-center gap-5 max-[769px]:justify-start'>
-                            <a href="https://www.instagram.com/atul_kumar_chourasia/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.instagram.com/atul__chourasia/" target="_blank" rel="noopener noreferrer">
                                 <FaInstagram className='text-white text-2xl hover:text-pink-500 transition ease-in-out' />
                             </a>
                             <a href="https://github.com/atul64796" target="_blank" rel="noopener noreferrer">

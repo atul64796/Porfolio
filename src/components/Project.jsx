@@ -4,6 +4,7 @@ import { IoPlayCircleOutline } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 import { FiRefreshCcw } from "react-icons/fi";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import JourneyAi from '../../public/jorneyAi.png';
 function Project() {
   const gotoProject = () => {
     window.location.href = "https://journey-ai-delta.vercel.app/";
@@ -67,7 +68,7 @@ function Project() {
                     </div>
             </div>
             <div className='flex justify-center items-center h-[87%]'>
-                    <img src="./public/jorneyAi.png" alt=""  className='h-70 w-full' />
+                    <img src={JourneyAi} alt=""  className='h-70 w-full' />
                   </div>
             </div>
             
