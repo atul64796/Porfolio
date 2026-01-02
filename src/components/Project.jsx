@@ -5,6 +5,15 @@ import { FaGithub } from "react-icons/fa";
 import { FiRefreshCcw } from "react-icons/fi";
 import { FaExternalLinkAlt } from "react-icons/fa";
 function Project() {
+  const gotoProject = () => {
+    window.location.href = "https://journey-ai-delta.vercel.app/";
+  }
+  const gotoGithub = () => {
+    window.location.href = "https://github.com/atul64796/JourneyAi";
+  }
+  const gotoDemo = () => {
+    window.location.href = "https://journey-ai-delta.vercel.app/";
+  }
   return (
     <>
     <div className=' tech flex flex-col justify-center items-center mt-30 2 mb-10 p-10 ' id='project-bar'>
@@ -17,14 +26,14 @@ function Project() {
     <div className='flex  justify-center gap-10 max-[1241px]:flex-col max-[1241px]:items-center   '>
         <div className='left-side-project w-[45%] max-[890px]:w-[91%] max-[1241px]:w-[70%]   text-white border-1 border-white/20   max-[500px]:p-5 p-7 flex flex-col gap-6  '>
             <div className='flex flex-col gap-2'>
-                <h2 className='text-2xl max-[1323px]:xl max-[500px]:text-lg text-yellow-400'>AI Enchancer</h2>
-                <h1 className='text-4xl  max-[1323px]:text-3xl   font-bold'>AI Image Enhancer</h1>
-                <p>The AI Image Enhancer is a web-based application that utilizes advanced AI models to enhance image quality, resolution, and overall appearance. It applies deep learning techniques to upscale low-quality images, remove noise, sharpen details, and improve colors. The project is designed to help photographers, designers, and general users improve their images effortlessly."</p>
+                <h2 className='text-2xl max-[1323px]:xl max-[500px]:text-lg text-yellow-400'>Ai Story Generator</h2>
+                <h1 className='text-4xl  max-[1323px]:text-3xl   font-bold'>Journey Ai</h1>
+                <p>"Journey AI is a collaborative travel story generator built as a team project. Users can generate and regenerate stories, read public stories, track their history, plan trips using an AI chatbot, and securely share experiences with JWT-based authentication for safe and personalized access."</p>
             </div>
             <div className='flex flex-wrap gap-5 max-[1323px]:gap-3 items-center  px-4 max-[500px]:gap-2 '>
                     <span className='border-1 max-[1323px]:text-sm  border-white/20 p-3 rounded-xl transform hover:scale-110 hover:border-yellow-400 hover:border-1 transition duration-100'>Java Script</span>
                     <span className='border-1 max-[1323px]:text-sm border-white/20 p-3 rounded-xl transform hover:scale-110 hover:border-yellow-400 hover:border-1 transition duration-100'>Tailwind CSS</span>
-                    <span className='border-1 max-[1323px]:text-sm border-white/20 p-3 rounded-xl transform hover:scale-110 hover:border-yellow-400 hover:border-1 transition duration-100'>Html</span>
+                    <span className='border-1 max-[1323px]:text-sm border-white/20 p-3 rounded-xl transform hover:scale-110 hover:border-yellow-400 hover:border-1 transition duration-100'>MongoDb</span>
                     <span className='border-1 max-[1323px]:text-sm border-white/20 p-3 rounded-xl transform hover:scale-110 hover:border-yellow-400 hover:border-1 transition duration-100'>React</span>
                     <span className='border-1 max-[1323px]:text-sm border-white/20 p-3 rounded-xl transform hover:scale-110 hover:border-yellow-400 hover:border-1 transition duration-100'>Node.js</span>
                     <span className='border-1 max-[1323px]:text-sm border-white/20 p-3 rounded-xl transform hover:scale-110 hover:border-yellow-400 hover:border-1 transition duration-100'>Express.js</span>
@@ -32,9 +41,9 @@ function Project() {
                     <span className='border-1 max-[1323px]:text-sm border-white/20 p-3 rounded-xl transform hover:scale-110 hover:border-yellow-400 hover:border-1 transition duration-100'>Vercel</span>
             </div>
             <div className='flex p-1  gap-5  w-full  '>
-            <a href=""><div className='flex gap-2 max-[1323px]:text-sm justify-center items-center  p-3 bg-blue-600 transform hover:scale-110 transition duration-100'><TbWorld /><p>Website</p></div></a>
-            <a href=""><div className='flex gap-2 max-[1323px]:text-sm justify-center items-center border p-3 transform hover:scale-110 transition duration-100'><FaGithub /><p>Github</p></div></a>
-            <a href=""><div className='flex gap-2  max-[1323px]:text-sm justify-center items-center border p-3 transform hover:scale-110 transition duration-100'><IoPlayCircleOutline /><p>Demo</p></div></a>
+            <button onClick={gotoProject} className='flex gap-2 max-[1323px]:text-sm justify-center items-center  p-3 bg-blue-600 transform hover:scale-110 transition duration-100'><TbWorld /><p>Website</p></button>
+            <button onClick={gotoGithub} className='flex gap-2 max-[1323px]:text-sm justify-center items-center border p-3 transform hover:scale-110 transition duration-100'><FaGithub /><p>Github</p></button>
+            <button onClick={gotoDemo} className='flex gap-2  max-[1323px]:text-sm justify-center items-center border p-3 transform hover:scale-110 transition duration-100'><IoPlayCircleOutline /><p>Demo</p></button>
             </div>
         </div>
         <div className='Right-side-project w-[50%]  flex justify-center items-center   p-8  max-[1241px]:hidden'>
@@ -47,7 +56,7 @@ function Project() {
                     </div>
                 <div className='flex gap-3 item-center  w-[65%]  justify-center'>
                   <div className='border-1 w-[75%] border-gray-00 bg-gray-800 rounded-md flex justify-center items-center '>
-                    <p className='text-gray-400'>Available Soon</p>
+                    <p className='text-gray-400'>Journey Ai</p>
                   </div>
                     </div>
                     <div className='flex gap-3 item-center  w-[25%]  justify-center'>
@@ -57,8 +66,8 @@ function Project() {
                   </div>
                     </div>
             </div>
-            <div className='flex justify-center items-center h-[80%]'>
-                    <img src="./public/animation.gif" alt=""  className='h-20' />
+            <div className='flex justify-center items-center h-[87%]'>
+                    <img src="./public/jorneyAi.png" alt=""  className='h-70 w-full' />
                   </div>
             </div>
             
@@ -115,9 +124,9 @@ function Project() {
                     <span className='border-1 max-[1323px]:text-sm border-white/20 p-3 rounded-xl transform hover:scale-110 hover:border-yellow-400 hover:border-1 transition duration-100'>Vercel</span>
             </div>
             <div className='flex p-3 gap-5   max-[500px]:p-0 '>
-            <a href=""><div className='flex gap-2 max-[500px]:gap-1 max-[1323px]:text-sm justify-center items-center p-3 bg-blue-600 transform hover:scale-110 transition duration-100'><TbWorld /><p>Website</p></div></a>
-            <a href=""><div className='flex gap-2 max-[500px]:gap-1 max-[1323px]:text-sm justify-center items-center border p-3 transform hover:scale-110 transition duration-100'><FaGithub /><p>Github</p></div></a>
-            <a href=""><div className='flex gap-2 max-[500px]:gap-1 max-[1323px]:text-sm justify-center items-center border  p-3 transform hover:scale-110 transition duration-100'><IoPlayCircleOutline /><p>Demo</p></div></a>
+            <button  className='flex gap-2 max-[500px]:gap-1 max-[1323px]:text-sm justify-center items-center p-3 bg-blue-600 transform hover:scale-110 transition duration-100'><TbWorld /><p>Website</p></button>
+            <button className='flex gap-2 max-[500px]:gap-1 max-[1323px]:text-sm justify-center items-center border p-3 transform hover:scale-110 transition duration-100'><FaGithub /><p>Github</p></button>
+            <button className='flex gap-2 max-[500px]:gap-1 max-[1323px]:text-sm justify-center items-center border  p-3 transform hover:scale-110 transition duration-100'><IoPlayCircleOutline /><p>Demo</p></button>
             </div>
         </div>
         </div>

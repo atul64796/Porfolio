@@ -27,7 +27,7 @@ useEffect(() => {
 
 
   return (
-    <div className="flex  min-h-screen max-[500px]:p-0 p-6  max-[1169px]:flex-col relative">
+    <div className="flex  min-h-screen max-[500px]:p-0 p-6   max-[1169px]:flex-col relative">
       <div className='w-[70%] item-center justify-center p-4 max-[1169px]:w-full '>
       <div className="card-container  flex  flex-col  w-70 h-12 [perspective:1000px] justify-center items-center mx-auto  mt-16">
         <div className="card-inner w-full h-full">
